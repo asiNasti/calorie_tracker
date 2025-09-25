@@ -1,0 +1,5 @@
+# This file lists the libraries used in the project
+# For demonstration purposes only, not intended for public use
+
+openfoodfacts
+tabulate
