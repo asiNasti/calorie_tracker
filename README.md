@@ -1,4 +1,6 @@
 # 🍎 Calorie Tracker
+#### Video Demo: <>
+
 A learning project for tracking calories implemented as a console application in Python using the OpenFoodFacts API
 
 ## Features
@@ -10,7 +12,7 @@ A learning project for tracking calories implemented as a console application in
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/asiNasti/calorie_tracker.git](https://github.com/asiNasti/calorie_tracker.git)
+   git clone https://github.com/asiNasti/calorie_tracker.git
    cd calorie_tracker
    
 2. **(Optional) Create and activate a virtual environment:**
@@ -28,7 +30,7 @@ A learning project for tracking calories implemented as a console application in
 
 ## Usage
 Run the main script to start the tracker:
-   `python main.py`
+   `python project.py`
 
 ## Example Output
 Enter food name: apple pie 
@@ -49,17 +51,11 @@ Food added✅
 Want to see a list of calories for today? y/n y
 
 +----------------+------------+------------+
-
-| Name           | Grams/ml   |   Calories |
-
+| Name           | Grams/ml   | Calories   |
 +================+============+============+
-
-| Apple Pie Bars | 200.0      |        848 |
-
+| Apple Pie Bars | 200.0      | 848        |
 +----------------+------------+------------+
-
-| Total          | -          |        848 |
-
+| Total          | -          | 848        |
 +----------------+------------+------------+
 
 ## How It Works
