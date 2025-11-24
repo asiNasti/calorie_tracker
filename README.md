@@ -1,6 +1,34 @@
 # 🍎 Calorie Tracker
-A learning project for tracking calories
-Implemented as a console application in Python
+A learning project for tracking calories implemented as a console application in Python using the OpenFoodFacts API
+
+## Features
+- Search for food products via API.
+- Add products to your daily list specifying weight in grams.
+- Calculate total calories for the day.
+
+## Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/asiNasti/calorie_tracker.git](https://github.com/asiNasti/calorie_tracker.git)
+   cd calorie_tracker
+   
+2. **(Optional) Create and activate a virtual environment:**
+   python -m venv venv
+   
+   Windows:
+      `venv\Scripts\activate`
+      
+   macOS/Linux:
+      `source venv/bin/activate`
+   
+3. **Install dependencies:**
+   
+   `pip install -r requirements.txt`
+
+## Usage
+Run the main script to start the tracker:
+   `python main.py`
 
 ## Example Output
 Enter food name: apple pie 
@@ -12,7 +40,7 @@ Found 👇
    
    ...
    
-If your dish is not here, enter '0', otherwise enter the dish number: 3
+If your dish is not here, enter '0', otherwise, enter the dish number: 3
 
 Enter product grams/ml: 200
 
