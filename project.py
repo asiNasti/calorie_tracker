@@ -1,5 +1,4 @@
 from products import Products
-from handlers import handle_new_item, get_food_selection
 
 
 def main():
