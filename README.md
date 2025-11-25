@@ -1,6 +1,6 @@
 # 🍎 Calorie Tracker
-#### Video Demo: <>
-
+#### Video Demo: <https://youtu.be/agBOwxFTpag>
+#### Description:
 A learning project for tracking calories implemented as a console application in Python using the OpenFoodFacts API
 
 ## Features
