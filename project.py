@@ -17,12 +17,12 @@ def main():
         else:
             get_food_selection(products, results, food_name)
 
-        see_total = input("Want to see a list of calories for today? y/n ").lower().strip()
+        see_total = clean_input(input("Want to see a list of calories for today? y/n "))
         if see_total == "y":
             table = products.show_table()
             print(table)
 
-        end = input("Do you want to finish? y/n ").lower().strip()
+        end = clean_input(input("Do you want to finish? y/n "))
         if end == "y":
             print("Bye 🤘")
             print("💙 🇺🇦 💛")
